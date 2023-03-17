@@ -36,7 +36,7 @@ const Board = ({ xIsNext, squares, onPlay }) => {
         status = 'winner: ' + winner;
         
         if (squares[0] == squares[1] && squares[0] == squares[2]) {
-            console.log(squares[0], squares[1], squares[2])
+            console.log(squares[0], squares[1], squares[2]);
         }
 
         if (squares[3] == squares[4] && squares[3] == squares[5]) {
@@ -62,7 +62,7 @@ const Board = ({ xIsNext, squares, onPlay }) => {
         if (squares[0] == squares[4] && squares[0] == squares[8]) {
             console.log(squares[0], squares[4], squares[8])
         }
-        
+
         if (squares[2] == squares[4] && squares[2] == squares[6]) {
             console.log(squares[2], squares[4], squares[6])
         }
