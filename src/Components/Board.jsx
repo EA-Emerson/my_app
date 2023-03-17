@@ -37,6 +37,7 @@ const Board = ({ xIsNext, squares, onPlay }) => {
         
         if (squares[0] == squares[1] && squares[0] == squares[2]) {
             console.log(squares[0], squares[1], squares[2]);
+            console.log(typeof squares)
         }
 
         if (squares[3] == squares[4] && squares[3] == squares[5]) {
