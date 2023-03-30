@@ -16,3 +16,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.winning-square {
+  @apply border-2 border-green-800 text-green-300 bg-gray-800 
+}

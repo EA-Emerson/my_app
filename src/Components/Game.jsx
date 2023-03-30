@@ -16,7 +16,6 @@ const Game = () => {
 
     // to render the squares for the current move, you'll want to read the last squares array from the history. You don't need useState for this. You already have enough information to calculate it during rendering, defaulting to 0.
     const currentSquares = history[currentMove];
-
     // Create a handlePlay function inside the Game component that will be called by the Board component to update the game. Pass xIsNext, currentSquares and handlePlay as props to the Board component.
     function handlePlay(nextSquares) {
         const nextHistory = [...history.slice(0, currentMove + 1), nextSquares]
